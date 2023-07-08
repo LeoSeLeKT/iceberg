@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+
+}
+
+body ul li{
+    padding:20px;
+    text-align: center;
+}
+body a{
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+@media (max-width: 480px) {
+    .drink {
+        padding: 10px;
+    }
+
+    .drink h3 {
+        font-size: 20px;
+    }
+
+    .drink p {
+        font-size: 14px;
+    }
+}
+img{
+    padding-left:645px ;
+}
