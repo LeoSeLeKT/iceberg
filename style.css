@@ -73,12 +73,12 @@ h1 {
     height: 100px;
     flex-shrink: 0;
     object-fit: cover;
-    padding-left: 600px;
+    
 }
 .drink-item-image-right{
     width: 100px;
     height: 100px;
     flex-shrink: 0;
     object-fit: cover;
-    padding-left: 600px;
+    
 }
