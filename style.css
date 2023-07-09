@@ -17,21 +17,11 @@
              font-size: 14px;
          }
           .drink-item-image{
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    object-fit: cover;
-    
-}
-.drink-item-image-right{
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    object-fit: cover;
-    
-}
-
+               margin-right:200px;
      }
+          .drink-item-image-right{
+               margin-right:200px;
+          }
 img{
     padding-left:645px ;
 }
@@ -83,3 +73,18 @@ h1 {
 
      }
 
+
+          .drink-item-image{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    
+}
+.drink-item-image-right{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    
+}
