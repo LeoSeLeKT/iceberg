@@ -16,9 +16,23 @@
          .drink p {
              font-size: 14px;
          }
+         .drink-item-image{
+             width: 100px;
+             height: 100px;
+             flex-shrink: 0;
+             object-fit: cover;
+             padding-left: 600px;
+         }
+         .drink-item-image-right{
+             width: 100px;
+             height: 100px;
+             flex-shrink: 0;
+             object-fit: cover;
+             padding-left: 600px;
+         }
      }
 img{
-     padding-left:375px;
+    padding-left:375px ;
 }
 h1 {
     text-align: center;
@@ -69,17 +83,3 @@ h1 {
      }
 
 
-          .drink-item-image{
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    object-fit: cover;
-    
-}
-.drink-item-image-right{
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    object-fit: cover;
-    
-}

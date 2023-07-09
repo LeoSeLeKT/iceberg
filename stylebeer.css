@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-     background-image: url("pexels-pavel-danilyuk-5858064.jpg");
+     background-image: url("pexels-cottonbro-studio-5538225.jpg");
 }
 @media (max-width: 480px) {
     .drink {
@@ -18,7 +18,7 @@ body {
     }
 }
 img{
-    padding-left:645px ;
+    padding-left:375px ;
 }
 h1 {
     text-align: center;
