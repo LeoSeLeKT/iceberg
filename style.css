@@ -34,11 +34,12 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
+.drink-item{
+    margin-bottom: -100px;
+}
 .drink h3 {
     margin-top: 0;
     color: #333;
-    border: 1px dot-dash #333333;
     font-size: 24px;
 }
 
@@ -53,6 +54,7 @@ h1 {
      .drink {
          display: flex;
          justify-content: space-between;
+         flex-shrink: 0;
 
      }
 
@@ -65,3 +67,18 @@ h1 {
          width: 50%;
 
      }
+
+.drink-item-image{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    padding-left: 600px;
+}
+.drink-item-image-right{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    padding-left: 600px;
+}
