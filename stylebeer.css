@@ -2,9 +2,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-     background-image: url("pexels-cottonbro-studio-5538225.jpg");
+     background-image: url("seamless-gea7e2d9be_1920.jpg");
 }
-@media (max-width: 480px) {
+@media (min-height: 700px){
+    
+}
+@media (max-width: 480px ){
     .drink {
         padding: 10px;
     }

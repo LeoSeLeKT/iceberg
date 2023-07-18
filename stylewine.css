@@ -17,10 +17,12 @@ body {
     .drink p {
         font-size: 14px;
     }
-    
+    img{
+        padding-left: 375px;
+    }
 }
 img{
-    padding-left:375px ;
+    padding-left:645px ;
 }
 h1 {
     text-align: center;

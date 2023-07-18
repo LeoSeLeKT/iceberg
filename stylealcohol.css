@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-    background-image:url("pexels-chris-f-1283219.jpg");
+    background-image:url("whiskey-gcacfda092_1920.jpg");
 
 }
 @media (max-width: 480px) {
@@ -28,8 +28,8 @@ h1 {
 }
 
 .drink {
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 35px;
+    padding: 10px;
 
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
