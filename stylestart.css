@@ -28,11 +28,32 @@ footer{
     .drink p {
         font-size: 14px;
     }
-    img{
-        padding-left:375px ;
+    
+    img {
+        padding-left: 375px;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 560px) {
+    .drink {
+        padding: 5px;
     }
 
+    .drink h3 {
+        font-size: 16px;
+    }
+
+    .drink p {
+        font-size: 12px;
+    }
+    
+    img {
+        padding-left: 10px;
+        width: 100%;
+    }
 }
+
 img{
     padding-left:375px ;
 }
