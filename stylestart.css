@@ -16,43 +16,26 @@ footer{
     text-align: center;
     padding-top: 100px;
 }
-@media (min-width: 560px) {
-    .drink {
-        padding: 10px;
-    }
-
-    .drink h3 {
-        font-size: 20px;
-    }
-
-    .drink p {
-        font-size: 14px;
-    }
-    
-    img {
-        padding-left: 375px;
-    }
+.drink {
+    padding: 5%;
 }
 
-/* Responsive styles */
-@media (max-width: 560px) {
-    .drink {
-        padding: 5px;
-    }
-
-    .drink h3 {
-        font-size: 16px;
-    }
-
-    .drink p {
-        font-size: 12px;
-    }
-    
-    img {
-        padding-left: 10px;
-        width: 100%;
-    }
+.drink h3 {
+    font-size: 3vw;
 }
+
+.drink p {
+    font-size: 2vw;
+}
+
+img {
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 img{
     padding-left:375px ;
