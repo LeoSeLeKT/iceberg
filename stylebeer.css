@@ -4,10 +4,8 @@ body {
     background-color: black;
      background-image: url("seamless-gea7e2d9be_1920.jpg");
 }
-@media (min-height: 700px){
-    
-}
-@media (max-width: 480px ){
+
+@media (max-width: 768px ){
     .drink {
         margin-bottom: 35px;
         padding: 10px;

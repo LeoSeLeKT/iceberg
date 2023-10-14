@@ -4,7 +4,7 @@ body {
     background-color: black;
     background-image: url("coffee-g968c82009_1280.jpg");
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .drink {
         margin-bottom: 35px;
         padding: 10px;

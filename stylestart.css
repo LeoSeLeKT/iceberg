@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-
+    margin: 0;
+    padding: 0;
 }
 
 body ul li{
-    padding:20px;
+
     text-align: center;
 }
 body a{
@@ -14,11 +15,42 @@ body a{
 footer{
     color: white;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-left:40px ;
 }
-@media (max-width: 480px) {
+nav a{
+    text-decoration: none;
+    padding: 8px 10px; /* Adjust the vertical padding as needed */
+    margin: 5px 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 22px;
+    transition: background-color 0.3s, color 0.3s;
+
+    color: #00eaff;
+    background-color: black;
+    display: inline-block;
+    width: 230px; /* Set a fixed width for all buttons */
+    height: 40px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+nav a:hover{
+    text-decoration: none;
+    padding: 8px 10px; /* Adjust the vertical padding as needed */
+    margin: 5px 20px;
+    border: 1px solid #00eaff;
+    border-radius: 8px;
+    font-size: 22px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #00eaff;
+    color: black;
+    display: inline-block;
+    width: 230px; /* Set a fixed width for all buttons */
+    height: 40px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+@media (max-width: 768px) {
     .drink {
-        margin-bottom: 35px;
         padding: 10px;
     }
 
@@ -30,8 +62,9 @@ footer{
         font-size: 14px;
     }
     img{
-        padding-left: 375px;
+        padding-left:375px ;
     }
+
 }
 
 img{
