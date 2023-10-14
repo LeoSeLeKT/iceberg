@@ -5,7 +5,7 @@ body {
      background-image: url("seamless-gea7e2d9be_1920.jpg");
 }
 
-@media (max-width: 768px ){
+@media (max-width: 350px ){
     .drink {
         margin-bottom: 35px;
         padding: 10px;

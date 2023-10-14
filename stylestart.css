@@ -49,7 +49,7 @@ nav a:hover{
     height: 40px;
     box-sizing: border-box; /* Include padding in the width */
 }
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .drink {
         padding: 10px;
     }
