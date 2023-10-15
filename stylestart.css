@@ -20,8 +20,8 @@ footer{
 }
 nav a{
     text-decoration: none;
-    padding: 33px 10px; /* Adjust the vertical padding as needed */
-    margin: 5px 20px;
+    padding: 60px 10px; /* Adjust the vertical padding as needed */
+    margin: 20px 20px;
     border: 1px solid #333;
     border-radius: 8px;
     font-size: 22px;
@@ -30,24 +30,15 @@ nav a{
     color: #00eaff;
     background-color: black;
     display: inline-block;
-    width: 335px; /* Set a fixed width for all buttons */
-    height: 100px;
+    width: 455px; /* Set a fixed width for all buttons */
+    height: 150px;
     box-sizing: border-box; /* Include padding in the width */
 }
 nav a:hover{
-    text-decoration: none;
-    padding: 8px 10px; /* Adjust the vertical padding as needed */
-    margin: 5px 20px;
-    border: 1px solid #00eaff;
-    border-radius: 8px;
-    font-size: 22px;
-    transition: background-color 0.3s, color 0.3s;
+
     background-color: #00eaff;
     color: black;
-    display: inline-block;
-    width: 335px; /* Set a fixed width for all buttons */
-    height: 100px;
-    box-sizing: border-box; /* Include padding in the width */
+
 }
 @media (max-width: 300px) {
     .drink {
