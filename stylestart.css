@@ -30,7 +30,7 @@ nav a{
     color: #00eaff;
     background-color: black;
     display: inline-block;
-    width: 230px; /* Set a fixed width for all buttons */
+    width: 235px; /* Set a fixed width for all buttons */
     height: 40px;
     box-sizing: border-box; /* Include padding in the width */
 }
@@ -45,7 +45,7 @@ nav a:hover{
     background-color: #00eaff;
     color: black;
     display: inline-block;
-    width: 230px; /* Set a fixed width for all buttons */
+    width: 235px; /* Set a fixed width for all buttons */
     height: 40px;
     box-sizing: border-box; /* Include padding in the width */
 }
@@ -64,7 +64,9 @@ nav a:hover{
     img{
         padding-left:375px ;
     }
-
+body{
+    width: 80%;
+}
 }
 
 img{
