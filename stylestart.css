@@ -20,7 +20,7 @@ footer{
 }
 nav a{
     text-decoration: none;
-    padding: 8px 10px; /* Adjust the vertical padding as needed */
+    padding: 33px 10px; /* Adjust the vertical padding as needed */
     margin: 5px 20px;
     border: 1px solid #333;
     border-radius: 8px;
@@ -30,8 +30,8 @@ nav a{
     color: #00eaff;
     background-color: black;
     display: inline-block;
-    width: 235px; /* Set a fixed width for all buttons */
-    height: 40px;
+    width: 335px; /* Set a fixed width for all buttons */
+    height: 100px;
     box-sizing: border-box; /* Include padding in the width */
 }
 nav a:hover{
@@ -45,8 +45,8 @@ nav a:hover{
     background-color: #00eaff;
     color: black;
     display: inline-block;
-    width: 235px; /* Set a fixed width for all buttons */
-    height: 40px;
+    width: 335px; /* Set a fixed width for all buttons */
+    height: 100px;
     box-sizing: border-box; /* Include padding in the width */
 }
 @media (max-width: 300px) {
@@ -64,10 +64,10 @@ nav a:hover{
     img{
         padding-left:375px ;
     }
-body{
-    width: 80%;
-    zoom: normal;
-}
+    body{
+        width: 80%;
+        zoom: normal;
+    }
 }
 
 img{
