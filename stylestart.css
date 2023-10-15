@@ -22,15 +22,15 @@ nav a{
     text-decoration: none;
     padding: 60px 10px; /* Adjust the vertical padding as needed */
     margin: 20px 20px;
-    border: 1px solid #333;
-    border-radius: 8px;
-    font-size: 26px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 30px;
     transition: background-color 0.3s, color 0.3s;
 
     color: #00eaff;
     background-color: black;
     display: inline-block;
-    width: 455px; /* Set a fixed width for all buttons */
+    width: 555px; /* Set a fixed width for all buttons */
     height: 150px;
     box-sizing: border-box; /* Include padding in the width */
 }
