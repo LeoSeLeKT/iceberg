@@ -28,7 +28,7 @@ nav a{
     transition: background-color 0.3s, color 0.3s;
 
     color: #00eaff;
-    background-color: black;
+    background-color: rgb(7, 6, 6);
     display: inline-block;
     width: 555px; /* Set a fixed width for all buttons */
     height: 150px;
@@ -40,7 +40,7 @@ nav a:hover{
     color: black;
 
 }
-@media (max-width: 500px) {
+@media (max-width: 300px) {
     .drink {
         padding: 10px;
     }

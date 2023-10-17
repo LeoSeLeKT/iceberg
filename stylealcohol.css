@@ -5,6 +5,11 @@ body {
     background-image: url("whiskey-gcacfda092_1920.jpg");
 
 }
+h4{
+    color: mintcream;
+    padding-left: 10px;
+    font-size: 17px;
+}
 @media (max-width: 350px) {
     .drink {
         margin-bottom: 35px;
@@ -32,15 +37,14 @@ h1 {
 .drink {
     margin-bottom: 35px;
     padding: 10px;
-
-    background-color: #fff;
+    background-color: whitesmoke;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 .drink h3 {
     margin-top: 0;
-    color: #333;
+    color: #333333;
     border: 1px dot-dash #333333;
     font-size: 24px;
 }
@@ -60,8 +64,8 @@ h1 {
 }
 
 .drink-item {
-    width: 45%;
-
+    width: 49%;
+    border-right:1px dotted black;
 }
 
 .drink-item-right {

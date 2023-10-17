@@ -58,8 +58,8 @@ h1 {
 }
 
 .drink-item {
-    width: 45%;
-
+    width: 49%;
+    border-right:1px dotted black;
 }
 
 .drink-item-right {
