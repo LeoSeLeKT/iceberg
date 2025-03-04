@@ -1,68 +1,117 @@
-/* CSS for the cocktail bar menu */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-    background-image: url("coffee-g968c82009_1280.jpg");
-}
-@media (max-width: 350px) {
-    .drink {
-        margin-bottom: 35px;
-        padding: 10px;
-    }
-
-    .drink h3 {
-        font-size: 20px;
-    }
-
-    .drink p {
-        font-size: 14px;
-    }
-}
-img{
-    padding-left:375px ;
-}
-h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    color: #333;
-    margin-top: 30px;
 }
 
-.drink {
-    margin-bottom: 35px;
-    padding: 10px;
+/* Logo Image */
+img {
+    display: block;
+    margin: 40px auto;
+    width: 250px;
+    height: auto;
+}
 
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+/* Navigation Bar */
+nav {
+    background-color: #222;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav ul li {
+    flex: 1 1 calc(33.333% - 20px);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+    color: white;
+    background-color: darkblue;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Drinks Section */
+.drink {
+    background-color: #333;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drink-item, .drink-item-right {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
 }
 
 .drink h3 {
-    margin-top: 0;
-    color: #333;
-    border: 1px dot-dash #333333;
-    font-size: 24px;
+    margin: 0;
+    font-size: 22px;
+    color: whitesmoke;
 }
-
 
 .drink p {
     margin: 5px 0;
-    color: #666;
-
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: floralwhite;
     font-size: 16px;
 }
 
-.drink {
-    display: flex;
-    justify-content: space-between;
-
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
 }
 
-.drink-item {
-    width: 49%;
-    border-right:1px dotted black;
-}
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
 
-.drink-item-right {
-    width: 50%;
+    nav ul li {
+        flex: 1 1 100%;
+    }
 
+    .drink {
+        flex-direction: column;
+        text-align: center;
+    }
 }
